@@ -1,1 +1,93 @@
+            border-color: #ff3333;
+        }
 
+        .anime-thumb {
+            width: 100%;
+            aspect-ratio: 2/3;
+            background-color: #222222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #444444;
+            font-size: 0.8rem;
+        }
+
+        .anime-info {
+            padding: 12px;
+        }
+
+        .anime-name {
+            font-size: 0.95rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .watch-btn {
+            display: block;
+            width: 100%;
+            background-color: #ff3333;
+            color: #ffffff;
+            text-align: center;
+            padding: 6px 0;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">Void Portal</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Manga</a></li>
+        </ul>
+    </nav>
+
+    <section class="cover-page">
+        <img src="imu-cover.png" alt="Imu Anime Cover" class="cover-image">
+    </section>
+
+    <main class="portal-container">
+        <h2 class="section-title">Trending Series</h2>
+        <div class="anime-grid">
+            <div class="anime-card">
+                <div class="anime-thumb">Poster 1</div>
+                <div class="anime-info">
+                    <div class="anime-name">One Piece</div>
+                    <a href="#" class="watch-btn">Watch</a>
+                </div>
+            </div>
+            <div class="anime-card">
+                <div class="anime-thumb">Poster 2</div>
+                <div class="anime-info">
+                    <div class="anime-name">Jujutsu Kaisen</div>
+                    <a href="#" class="watch-btn">Watch</a>
+                </div>
+            </div>
+            <div class="anime-card">
+                <div class="anime-thumb">Poster 3</div>
+                <div class="anime-info">
+                    <div class="anime-name">Demon Slayer</div>
+                    <a href="#" class="watch-btn">Watch</a>
+                </div>
+            </div>
+            <div class="anime-card">
+                <div class="anime-thumb">Poster 4</div>
+                <div class="anime-info">
+                    <div class="anime-name">Chainsaw Man</div>
+                    <a href="#" class="watch-btn">Watch</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
